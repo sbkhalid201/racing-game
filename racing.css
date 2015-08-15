@@ -15,7 +15,6 @@ border-style: solid black;
 }
 table {
   margin: auto;
-
 }
 table tr td {
   height: 40px;
@@ -28,4 +27,13 @@ table tr td {
 }
 .silver-background{
 	background-color: #BDC3C7;
+}
+@media (max-width: 500px) {
+      h1 {
+        font-size: 24px;
+      }
+      table {
+        display: block;
+        padding: 10px;
+      }
 }
