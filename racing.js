@@ -1,7 +1,3 @@
-$(document).ready(function() {
-$("a").on("click", function handleClick(event){
-    alert("You win bruh")
-});
 var player1, player2, counter, table1, table2
 //set an initial state at beginning
 //and with each reset
@@ -34,3 +30,9 @@ if (player1 === ){
 }
 
 for (var i = 0; i < table1)
+
+$(document).ready(function() {
+$("button").on("click", function handleClick(event){
+    alert("You win bruh")
+	});
+});
