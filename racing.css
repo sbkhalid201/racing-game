@@ -1,0 +1,26 @@
+h1{
+	text-align: center;
+	font-size: 52px;
+	font-family: 'Rock Salt', cursive;
+	color: white;
+}
+body{
+	text-align: center;
+	background-color: #E74C3C;
+}
+.button-xlarge {
+    font-size: 125%;
+}
+.instructions {
+  float: left;
+  width: 20%;
+}
+table {
+  margin: auto;
+}
+table tr td {
+  height: 30px;
+  width: 90px;
+  padding: 10px;
+  border: 2px solid white;
+}
