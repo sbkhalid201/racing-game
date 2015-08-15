@@ -1,3 +1,7 @@
+$(document).ready(function() {
+$("a").on("click", function handleClick(event){
+    alert("You win bruh")
+});
 var player1, player2, counter, table1, table2
 //set an initial state at beginning
 //and with each reset
@@ -29,6 +33,4 @@ if (player1 === ){
   alert("You guys are both awesome! Tie :)")
 }
 
-for (var i = 0; i < 9)
-$(document).ready(function() {
-  $("").on("")
+for (var i = 0; i < table1)

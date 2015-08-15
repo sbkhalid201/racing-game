@@ -2,21 +2,27 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+  <title>Racing Game</title>
+
+  <!-- Google Fonts, Pure.css, and Icon-->
 	<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 	<link rel="shortcut icon" href="http://i.imgur.com/yfrIwog.png"/>
 
-	<title>Racing Game</title>
-
+  <!-- CSS Stylesheet-->
 	<link rel="stylesheet" type="text/css" href="racing.css">
+
+  <!-- jQuery and Javascript-->
 	<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js'></script>
 	<script type="text/javascript" src='racing.js'></script>
 </head>
 <body>
 	<h1>Let's race!</h1>
+
+  <!-- Two tables for racing lanes -->
 	<div class='container'>
     <div class='grid'>
-      <table>
+      <table> 
         <tr>
           <td class="silver-background"></td>
           <td class="black-background"></td>
@@ -41,9 +47,10 @@
           <td class="silver-background"></td>
           <td class="black-background"></td>
         </tr>
-    </table>
+      </table>
     </div>
 	</div>
-	<br><br><a class="button-xlarge pure-button", href="http://www.wikihow.com/Race-Your-Car">Reset</a>
+  <!-- End of tables -->
+	<br><br><button class="button-xlarge pure-button">Reset</button>
 </body>
 </html>
