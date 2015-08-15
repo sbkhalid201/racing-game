@@ -1,8 +1,9 @@
 h1{
 	text-align: center;
-	font-size: 52px;
+	font-size: 50px;
 	font-family: 'Rock Salt', cursive;
 	color: white;
+    text-shadow: -3px 0 black, 0 4px black, 3px 0 black, 0 -3px black;
 }
 body{
 	text-align: center;
@@ -10,17 +11,21 @@ body{
 }
 .button-xlarge {
     font-size: 125%;
-}
-.instructions {
-  float: left;
-  width: 20%;
+border-style: solid black;
 }
 table {
   margin: auto;
+
 }
 table tr td {
-  height: 30px;
-  width: 90px;
+  height: 40px;
+  width: 50px;
   padding: 10px;
   border: 2px solid white;
+}
+.black-background{
+	background-color: black;
+}
+.silver-background{
+	background-color: #BDC3C7;
 }
