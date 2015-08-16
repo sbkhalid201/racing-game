@@ -8,31 +8,29 @@ player2 = 0
 table1 = 8
 table2 = 8
 
-$player1_initial_state = $("table tr td").eq(0)
-$player2_initial_state = $("table tr td").eq(9)
+player1_initial_state = document.getElementById('player1-start');
+player2_initial_state = document.getElementById('player2-start');
 
-if (player1 < table1.length || player2 < table1.length){
-  if ($(on("key press")) === a){
-    player1++
-  } else if ($(on("key press")) === l){
-    player2++
-  } else {
-  	return "'Tis nothing but a tie"
-  }
+function moveForward() {
+//  if ($(on("key press")) === a){
+//     player1++
+//   } else if ($(on("key press")) === l){
+//     player2++
+//   } else {
+    console.log("hello");
 }
+// }
 
-if (player1 === ){
-  alert("Player One Wins!")
-} else if (player2 reaches initial_state.length){
-  alert("Player Two Wins!")
-} else {
-  alert("You guys are both awesome! Tie :)")
-}
+// if (player1 === ){
+//   alert("Player One Wins!")
+// } else if (player2 reaches initial_state.length){
+//   alert("Player Two Wins!")
+// } else {
+//   alert("You guys are both awesome! Tie :)")
+// }
 
-for (var i = 0; i < table1)
+// for (var i = 0; i < table1)
 
-$(document).ready(function() {
-$("button").on("click", function handleClick(event){
-    alert("You win bruh")
-	});
-});
+function handleClick(event){
+  alert("You win bruh");
+};

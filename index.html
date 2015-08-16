@@ -12,19 +12,20 @@
   <!-- CSS Stylesheet-->
 	<link rel="stylesheet" type="text/css" href="racing.css">
 
-  <!-- jQuery and Javascript-->
+  <!-- jQuery and Javascript
 	<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js'></script>
-	<script type="text/javascript" src='racing.js'></script>
+	<script type="text/javascript" src='racing.js'></script> -->
 </head>
 <body>
 	<h1>Let's race!</h1>
 
   <!-- Two tables for racing lanes -->
-	<div class='container'>
-    <div class='grid'>
+	<div>
+    <div>
       <table> 
         <tr>
-          <td class="silver-background"></td>
+          <td class="silver-background">
+            <div class="dot"></div></td>
           <td class="black-background"></td>
           <td class="silver-background"></td>
           <td class="black-background"></td>
@@ -37,7 +38,7 @@
       </table><br>
       <table>
       	<tr><br><br>
-          <td class="black-background"></td>
+          <td class="black-background"><div class="dot"></div></td>
           <td class="silver-background"></td>
           <td class="black-background"></td>
           <td class="silver-background"></td>
@@ -51,8 +52,9 @@
     </div>
 	</div>
   <!-- End of tables -->
-  
-  <!-- Button to reset the game -->
-	<br><br><button class="button-xlarge pure-button">Reset</button>
+
+  <!-- Buttons to play and reset the game -->
+	<br><br><button onClick="handleClick()"class="button-xlarge pure-button">Play</button>&nbsp
+  <button onClick="handleClick()"class="button-xlarge pure-button">Reset</button>
 </body>
 </html>

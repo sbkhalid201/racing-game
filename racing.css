@@ -5,9 +5,15 @@ h1{
 	color: white;
     text-shadow: -3px 0 black, 0 4px black, 3px 0 black, 0 -3px black;
 }
+.dot {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background: #E74C3C;
+}
 body{
 	text-align: center;
-	background-color: #E74C3C;
+	background-color: #C0392B;
 }
 .button-xlarge {
     font-size: 125%;
@@ -27,6 +33,7 @@ table tr td {
 }
 .silver-background{
 	background-color: #BDC3C7;
+
 }
 @media (max-width: 500px) {
       h1 {
