@@ -17,7 +17,7 @@ function moveForward() {
 //   } else if ($(on("key press")) === l){
 //     player2++
 //   } else {
-}
+}g
 
 // if (player1 === ){
 //   alert("Player One Wins!")
@@ -28,5 +28,5 @@ function moveForward() {
 // }
 
 function handleClick(event){
-  alert("You win bruh");
+
 };

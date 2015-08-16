@@ -13,7 +13,7 @@ h1{
 }
 body{
 	text-align: center;
-	background-color: #C0392B;
+	background-color: #2980B9;
 }
 .button-xlarge {
   font-size: 125%;
@@ -34,6 +34,9 @@ table tr td {
 .silver-background{
 	background-color: #BDC3C7;
 
+}
+.finish{
+  background: url(http://i.imgur.com/KLhJY2t.jpg);
 }
 @media (max-width: 500px) {
       h1 {
