@@ -9,15 +9,15 @@ h1{
     height: 50px;
     width: 50px;
     border-radius: 100%;
-    background: #E74C3C;
+    background: url(http://i.imgur.com/N4qszee.png) no-repeat;
 }
 body{
 	text-align: center;
 	background-color: #C0392B;
 }
 .button-xlarge {
-    font-size: 125%;
-border-style: solid black;
+  font-size: 125%;
+  border-style: solid black;
 }
 table {
   margin: auto;

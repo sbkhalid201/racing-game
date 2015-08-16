@@ -17,9 +17,7 @@ function moveForward() {
 //   } else if ($(on("key press")) === l){
 //     player2++
 //   } else {
-    console.log("hello");
 }
-// }
 
 // if (player1 === ){
 //   alert("Player One Wins!")
@@ -28,8 +26,6 @@ function moveForward() {
 // } else {
 //   alert("You guys are both awesome! Tie :)")
 // }
-
-// for (var i = 0; i < table1)
 
 function handleClick(event){
   alert("You win bruh");
