@@ -3,7 +3,7 @@ h1{
 	font-size: 50px;
 	font-family: 'Rock Salt', cursive;
 	color: white;
-    text-shadow: -3px 0 black, 0 4px black, 3px 0 black, 0 -3px black;
+  text-shadow: -3px 0 black, 0 4px black, 3px 0 black, 0 -3px black;
 }
 .dot {
     height: 50px;

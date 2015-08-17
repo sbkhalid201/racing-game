@@ -1,35 +1,36 @@
-player1_initial_state = document.getElementById('player1-start');
-player2_initial_state = document.getElementById('player2-start');
+var counter1 = 0;
+var counter2 = 0;
 
-function play{
-  
+function main(n){
+    if (counter1 === 7){
+       alert("Player One Wins!")
+    } else if (counter2 === 7){
+        alert("Player Two Wins!")
+    } else {
+         alert("You guys are both awesome! Tie :)")
+    }
 }
-function moveAForward() {
-  player1_initial_state++
-}
-function moveLForward() {
-  player2_initial_state++
-}
-// if (player1 === ){
-//   alert("Player One Wins!")
-// } else if (player2 reaches initial_state.length){
-//   alert("Player Two Wins!")
-// } else {
-//   alert("You guys are both awesome! Tie :)")
-// }
+$(window).keypress(function(event){
 
+    if ((event.which === 65 || event.keyCode === 65) && counter1 < 8) {
+        console.log("hello");
+        var $player1 = $("table tr td#player1-start").remove();
+        var $nextBlock = $(".block").eq(counter1++);
+        $nextBlock.append(player1);
+    }
+    else if ((event.which == 76 || event.keyCode == 76) && counter2 < 8) {
+        console.log("hello");
+        var $player2 = $("table tr td#player2-start").remove();
+        var $nextBlock = $(".block").eq(counter2++);
+        $nextBlock.append(player2);
+    }
+})
+function play(){
+    alert("3...2...1...RACE!")
+}
 function handleClick(event){
-
+    //this function should reset the game
 }
-function onA(event) {
-    if (event.which == 65 || event.keyCode == 65) {
-        return moveAForward();
-    }
-    return false;
-}
-function onA(event) {
-    if (event.which == 76 || event.keyCode == 76) {
-        return moveLForward();
-    }
-    return false;
-}
+$(document).ready(function() {
+    var counter = 0;
+})
